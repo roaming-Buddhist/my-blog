@@ -1,7 +1,5 @@
 import axios from "axios";
 import type { Post } from "@/types";
-import { config } from "process";
-import { error } from "console";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
